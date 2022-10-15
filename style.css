@@ -1,0 +1,67 @@
+body{
+    margin: 0rem 6rem 0rem 6rem;  
+    background: linear-gradient(0deg, hsl(240, 73%, 65%) 0%, hsl(273, 75%, 66%) 0%, rgba(76,145,216,1) 0%, rgba(96,81,210,0.9808298319327731) 26%, rgba(142,57,245,1) 40%, rgba(232,54,244,0.9976365546218487) 76%);
+}
+aside .logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.accordion__question{
+    display: flow-root;
+}
+.accordion__question h1{
+    margin-bottom: 42px;
+    text-align: center;
+    font-size: 2rem;
+    margin-left: -267px;
+}
+.accordion__question p{
+    font-size: 17px;
+    margin: 0px 0px 0 118px;
+}
+.accordion__question p:hover{
+    color: orange;
+}
+.accordion__answer{
+    display: flow-root;
+    max-height: 0;
+    overflow: hidden;
+}
+.accordion__answer p{
+    font-size: 13px;
+    margin-left: 119px;
+    text-align: inherit;
+    margin-right: 121px;
+    margin-bottom: 20px;
+}
+.text.active .accordion__answer{
+    max-height: 100px;
+}
+section {
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 70px 0px 70px 0px;
+    margin: 96px 70px 96px 70px;
+}
+section:hover{
+    box-shadow: 0 0 20px;
+}
+
+section .text{
+    display: inline-flex;
+}
+.i{
+    margin-left: 59px;
+
+}
+.ic{
+    margin-left: 62px;
+
+}
+.ico{
+    margin-left: 128px;
+
+}
